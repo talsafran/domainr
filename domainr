@@ -19,7 +19,6 @@ def main(args):
             
             for s in sites['results']:
                 print "\t%s - %s" % (s['domain'], s['availability'])
-            
         else:
             print "Uh oh, you got a %s %s. What the dilly?" % (res.status, res.reason)
 
