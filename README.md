@@ -23,7 +23,7 @@ Now if you're *really* like me, you like doing things in the command line as muc
 ## Requirements and Installation
 First go and grab the repo:
 
-    $ git clone https://talsafran@github.com/talsafran/Domainr.git
+    $ git clone https://talsafran@github.com/talsafran/domainr.git
 
 There you have the domainr script. It should be an executable:
 
