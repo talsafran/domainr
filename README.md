@@ -16,9 +16,9 @@ Disclaimer: This is quite literally the first Python program I've ever written. 
         tl - tld
 
 ## Domainr CLI
-If you're like me, you love the website [Domai.nr]("http://domai.nr"). You type in a name you have in mind for a domain and it spits back as many clever domain possibilities as it can find, including domain hacks. That's badass.
+If you're like me, you love the website [Domai.nr](http://domai.nr). You type in a name you have in mind for a domain and it spits back as many clever domain possibilities as it can find, including domain hacks. That's badass.
 
-Now if you're *really* like me, you like doing things in the command line as much as possible. I check for domains every time a silly idea pops into my head, which is very often. So this is why I wrote the Domainr CLI.
+Now if you're *really* like me, you like doing things in the command line as much as possible. I check for domains every time a silly idea pops into my head, which is very often. So that's why I wrote this Domainr CLI.
 
 ## Requirements Installation
 First go and grab the repo:
