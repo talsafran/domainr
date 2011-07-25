@@ -18,10 +18,10 @@ def main(args):
             sites = json.loads(data)
             
             for s in sites['results']:
-                print("    %s - %s" % (s['domain'], s['availability']))
+                print "\t%s - %s" % (s['domain'], s['availability'])
             
         else:
-            print "Uh oh, you got a %s %s. What the dilly?", res.status, res.reason
+            print "Uh oh, you got a %s %s. What the dilly?" % (res.status, res.reason)
 
 if __name__ == "__main__":
     main(argv[1:])
