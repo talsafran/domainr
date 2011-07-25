@@ -29,13 +29,6 @@ There you have the domainr script. It should be an executable:
 
     chmod +x domainr
 
-Yay. You should also make sure the hashbang is pointing to the right version of Python.
-
-    $ which python
-    /usr/local/bin/python
-    $ head -1 domainr 
-    #!/usr/local/bin/python
-
 Now again, I'm no Python pro quite yet, but I'm fairly confident you need version 2.6 or greater for the json library. So go and get that.
 
     $ python --version
