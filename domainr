@@ -5,6 +5,20 @@ from httplib import HTTPConnection
 
 import json
 
+colors = {
+  'green':  '\033[92m',
+  'yellow': '\033[93m',
+  'red':    '\033[91m',
+  'endc':   '\033[0m'
+}
+
+status_color = {
+  'available':    colors['green'],
+  'maybe':        colors['yellow'],
+  'taken':        colors['red'],
+  'unavailable':  colors['red']
+}
+
 def main(args):
     for arg in args:
         print "Looking up domains for %s..." % arg
@@ -18,7 +32,8 @@ def main(args):
             sites = json.loads(data)
             
             for s in sites['results']:
-                print "\t%s - %s" % (s['domain'], s['availability'])
+                status = "%s%s - %s" % (s['domain'], s['path'], s['availability'])
+                print "\t" + status_color.get(s['availability'], '') + status + colors['endc']
         else:
             print "Uh oh, you got a %s %s. What the dilly?" % (res.status, res.reason)
 
