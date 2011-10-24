@@ -1,4 +1,4 @@
-Disclaimer: This is quite literally the first Python program I've ever written. So be gentle. Recovering Rubyist here :)
+Disclaimer: This is one of the first things I've written in Python. So be gentle. Recovering Rubyist here :)
 
     $ domainr talsafran
     Looking up domains for talsafran...
@@ -15,7 +15,7 @@ Disclaimer: This is quite literally the first Python program I've ever written. 
         t.ls - unavailable
         tl - tld
 
-## Domainr CLI
+## Domainr Command Line Interface
 If you're like me, you love the website [Domai.nr](http://domai.nr). You type in a name you have in mind for a domain and it spits back as many clever domain possibilities as it can find, including domain hacks. That's badass.
 
 Now if you're *really* like me, you like doing things in the command line as much as possible. I check for domains every time a silly idea pops into my head, which is very often. And I like doing it fast. So that's why I wrote this Domainr CLI.
