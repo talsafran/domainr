@@ -25,18 +25,7 @@ First go and grab the repo:
 
     $ git clone https://github.com/talsafran/domainr.git
 
-There you have the domainr script. It should be an executable:
-
-    chmod +x domainr
-
-Now again, I'm no Python pro quite yet, but I'm fairly confident you need version 2.6 or greater for the json library. So go and get that.
-
-    $ python --version
-    Python 2.5
-    $ brew install python
-    ....
-    $ python --version
-    Python 2.7.2
+I'm fairly confident you need version 2.6 or greater for the json library. So go and get that.
 
 Now you can either copy the script into your PATH or create a symlink. Whatever floats your boat.
 
