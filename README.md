@@ -83,6 +83,4 @@ It even works with multiple domains.
         s.hr - available
         sh - tld
 
-Sharon is my sister by the way. That's it! Enjoy and lemme know what you think on the Twitters.
-
 -- [@talsafran](http://twitter.com/talsafran)
