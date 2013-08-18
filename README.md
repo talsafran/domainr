@@ -1,20 +1,18 @@
-Disclaimer: This is one of the first things I've written in Python. So be gentle. Recovering Rubyist here :)
-
 ```bash
-    $ domainr talsafran
-    Looking up domains for talsafran...
-        talsafran.com - taken
-        talsafran.net - available
-        talsafran.org - available
-        talsafr.an - available
-        talsa.fr - available
-        tals.af - available
-        tal.sa - available
-        ta.ls - unavailable
-        tls.fr - taken
-        t.al - unavailable
-        t.ls - unavailable
-        tl - tld
+$ domainr talsafran
+Looking up domains for talsafran...
+    talsafran.com - taken
+    talsafran.net - available
+    talsafran.org - available
+    talsafr.an - available
+    talsa.fr - available
+    tals.af - available
+    tal.sa - available
+    ta.ls - unavailable
+    tls.fr - taken
+    t.al - unavailable
+    t.ls - unavailable
+    tl - tld
 ```
 
 ## Domainr Command Line Interface
@@ -26,7 +24,7 @@ Now if you're *really* like me, you like doing things in the command line as muc
 First go and grab the repo:
 
 ```bash
-    $ git clone https://github.com/talsafran/domainr.git
+$ git clone https://github.com/talsafran/domainr.git
 ```
 
 I'm fairly confident you need version 2.6 or greater for the json library. So go and get that.
@@ -34,63 +32,63 @@ I'm fairly confident you need version 2.6 or greater for the json library. So go
 Now you can either copy the script into your PATH or create a symlink. Whatever floats your boat.
 
 ```bash
-    $ cp domainr /usr/local/bin
+$ cp domainr /usr/local/bin
 ```
 
 ## How to use this thing
 Very simple. Just type in ``domainr`` and the name of the site you're looking for.
 
 ```bash
-    $ domainr talsafran
-    Looking up domains for talsafran...
-        talsafran.com - taken
-        talsafran.net - available
-        talsafran.org - available
-        talsafr.an - available
-        talsa.fr - available
-        tals.af - available
-        tal.sa - available
-        ta.ls - unavailable
-        tls.fr - taken
-        t.al - unavailable
-        t.ls - unavailable
-        tl - tld
+$ domainr talsafran
+Looking up domains for talsafran...
+    talsafran.com - taken
+    talsafran.net - available
+    talsafran.org - available
+    talsafr.an - available
+    talsa.fr - available
+    tals.af - available
+    tal.sa - available
+    ta.ls - unavailable
+    tls.fr - taken
+    t.al - unavailable
+    t.ls - unavailable
+    tl - tld
 ```
 
 It even works with multiple domains.
 
 ```bash
-    $ domainr talsafran sharonsafran
-    Looking up domains for talsafran...
-        talsafran.com - taken
-        talsafran.net - available
-        talsafran.org - available
-        talsafr.an - available
-        talsa.fr - available
-        tals.af - available
-        tal.sa - available
-        ta.ls - unavailable
-        tls.fr - taken
-        t.al - unavailable
-        t.ls - unavailable
-        tl - tld
-    Looking up domains for sharonsafran...
-        sharonsafran.com - available
-        sharonsafran.net - available
-        sharonsafran.org - available
-        sharonsafr.an - available
-        sharonsa.fr - available
-        sharons.af - available
-        sharon.sa - available
-        sha.ro - available
-        shrns.fr - available
-        shar.nsafr.an - available
-        shar.nsa.fr - taken
-        shar.ns.af - taken
-        shar.n.sa - available
-        sh.ar - unavailable
-        s.hr - available
-        sh - tld
+$ domainr talsafran sharonsafran
+Looking up domains for talsafran...
+    talsafran.com - taken
+    talsafran.net - available
+    talsafran.org - available
+    talsafr.an - available
+    talsa.fr - available
+    tals.af - available
+    tal.sa - available
+    ta.ls - unavailable
+    tls.fr - taken
+    t.al - unavailable
+    t.ls - unavailable
+    tl - tld
+Looking up domains for sharonsafran...
+    sharonsafran.com - available
+    sharonsafran.net - available
+    sharonsafran.org - available
+    sharonsafr.an - available
+    sharonsa.fr - available
+    sharons.af - available
+    sharon.sa - available
+    sha.ro - available
+    shrns.fr - available
+    shar.nsafr.an - available
+    shar.nsa.fr - taken
+    shar.ns.af - taken
+    shar.n.sa - available
+    sh.ar - unavailable
+    s.hr - available
+    sh - tld
 ```
 
 -- [@talsafran](http://twitter.com/talsafran)
