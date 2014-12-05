@@ -20,7 +20,7 @@ status_color = {
 }
 
 def main(args):
-    con = HTTPSConnection('domai.nr')
+    con = HTTPSConnection('domainr.com')
     
     for arg in args:
         print "Looking up domains for %s..." % arg
