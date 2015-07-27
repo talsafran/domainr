@@ -25,7 +25,7 @@ def main(args):
     for arg in args:
         print "Looking up domains for %s..." % arg
 
-        req = con.request('GET', '/v1/search?q=%s&client_id=python_talsafran' % arg)
+        req = con.request('GET', '/v1/search?q=%s&client_id={your-mashape-key}' % arg)
         res = con.getresponse()
 
         if res.status == 200:
